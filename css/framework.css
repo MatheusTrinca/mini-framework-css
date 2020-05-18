@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Classes Gerais */
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.w33{
+    width: 33.3%;
+}
+
+.w50{
+    width: 50%;
+    height: 50px;
+    padding: 0 2%;
+}
+
+.w100{
+    width: 100%;
+}
+
+.green{
+    background-color: green;
+}
+
+.red{
+    background-color: red;
+}
+
+.light-blue{
+    background-color: lightblue;
+}
+
+.text-white{
+    color: white;
+}
+
+section.container{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
+
+.center{
+    text-align: center;
+}
+
+@media screen and (max-width: 768px){
+    .w50{
+        width: 100%;
+    }
+
+    .left, .right{
+        text-align: center;
+    }
+
+    .w33{
+        width: 100%;
+        padding: 20px 0;
+    }
+
+}
